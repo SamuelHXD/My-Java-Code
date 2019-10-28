@@ -7,6 +7,7 @@ import java.awt.event.*;
 import java.awt.*;
 
 public class ServerUI extends JFrame {
+
     JTextArea mainArea;
     JTextArea sendArea;
     JTextField indexArea;
