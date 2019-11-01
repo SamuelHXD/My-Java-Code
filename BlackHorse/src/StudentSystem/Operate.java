@@ -1,7 +1,7 @@
 package StudentSystem;
 
 import java.util.Scanner;
-
+@SuppressWarnings("all")
 public class Operate {
     Scanner s = new Scanner(System.in);
     //打印菜单
