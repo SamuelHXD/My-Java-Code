@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.swun</groupId>
+    <artifactId>AdvanceJavaCode</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>day01API</module>
+        <module>day02CollectionAndReflect</module>
+        <module>day03ListAndSet</module>
+        <module>day04Map</module>
+        <module>day05ExceptionAndThread</module>
+        <module>day06Thread</module>
+        <module>day07ThreadAndLambda</module>
+        <module>day08FileAndRecursion</module>
+        <module>day09IOAndProperties</module>
+        <module>day10IO</module>
+        <module>day11Net</module>
+        <module>day12FunctionalInterface</module>
+        <module>day13StreamAndMethodReference</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
+</project>
