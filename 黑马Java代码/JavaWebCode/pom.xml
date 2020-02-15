@@ -12,6 +12,7 @@
         <module>day01BaseReview</module>
         <module>day04_Jdbc</module>
         <module>day05_dataSource_jdbcTemplate</module>
+        <module>day13_servlet</module>
     </modules>
 
     <properties>
@@ -29,6 +30,13 @@
             <version>4.12</version>
             <scope>test</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>4.0.1</version>
+        </dependency>
+
         <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
         <dependency>
             <groupId>mysql</groupId>
